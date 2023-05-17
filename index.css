@@ -47,6 +47,21 @@ body {
     transform 800ms ease;
 }
 
+.anish:hover {
+  opacity: 1;
+  transform: scale(1.01);
+}
+
+.anish {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 800ms ease,
+    transform 800ms ease;
+}
+
 .tile:nth-child(1) {
   background-color: rgb(255, 238, 88);
   height: 14%;
